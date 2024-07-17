@@ -80,6 +80,7 @@ choices.forEach((choice)=>{
 ok.addEventListener("click",()=>{
     batBowlArea.classList.add("hide");
     numbersArea.classList.remove("hide");
+    console.log("hello");
 })
 const playGameuser=(userBatBowlDecision)=>{
        if(userBatBowlDecision=="Batting"){
