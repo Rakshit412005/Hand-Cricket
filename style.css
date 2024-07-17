@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.area{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url("image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(187, 242, 242);
+}
+.start{
+    height: 60px;
+    width: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+.whenTosswon{
+    height: 400px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.whenTossloss{
+    height: 400px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tosswinMsg{
+    height: 60px;
+    width: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.tossloseMsg{
+    height: 60px;
+    width: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.toss{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.batbowlOptions{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.choice{
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    cursor: pointer;
+}
+.okMsg{
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    cursor: pointer;
+}
+.option{
+    background-color: orange;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    cursor: pointer;
+    font-size: 25px;
+}  
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    background-color: yellow;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+    width: 500px;
+    /* background-color: pink; */
+}
+.toss-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+.border:hover{
+    border: 3px solid black;
+}
+.batbowlchoosingArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-top: 20px;  
+}
+.numbersArea{
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.userWork{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:100px;
+    height: 90px;
+    width: 400px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.number{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: bold;
+    background-color: orange;
+}
+.number:hover{
+    border: 3px solid red;
+}
+.numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 500px;
+    
+}
+
+.hide{
+    display: none;
+}
