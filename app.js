@@ -23,19 +23,10 @@ const GenCompchoice = ()=>{
     return options[getIdx];
 }
 const tossResult=(userChoice,compChoice)=>{
-   /*  start.style.fontSize="20px";
-    start.style.fontWeight="bold";
-    tossArea.style.fontSize="10px";
-    tossArea.style.fontWeight="bold"; */
+   
     if(userChoice===compChoice){
         whenTosswon.classList.remove("hide");
-        /* start.classList.remove("hide");
-       start.innerText="Congrats on winning the Toss!"
-       tossArea.classList.remove("hide");
-       tossMsg.innerText="Choose Batting or Bowling.";
-       heads.innerText="Batting";
-       tails.innerText="Bowling";
-       tossMsg.style.fontSize="15px"; */
+      
        Options.forEach((option)=>{
         option.addEventListener("click",()=>{
             let userBatBowlDecision=option.innerText;
@@ -53,13 +44,7 @@ const tossResult=(userChoice,compChoice)=>{
        whenTossloss.classList.remove("hide");
        tosslossMsg.innerText=`Sorry computer won the toss! and chooses to ${compBatBowlDecision}.`
      
-       /*   start.classList.remove("hide");
-       start.innerText=`Sorry computer won the toss! and chooses to ${compBatBowlDecision}.`;
-       start.style.textAlign="center";
-       tossArea.classList.remove("hide");
-       tails.classList.add("hide");
-       tossMsg.classList.add("hide");
-       heads.innerText="OK"; */
+      
     }
 }
 start.addEventListener("click",()=>{
